@@ -1,5 +1,5 @@
 {
-  "name": "myweb",
+  "name": "myweb123",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,8 +7,14 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@better-scroll/core": "^2.0.0-beta.6",
+    "axios": "^0.19.2",
+    "better-scroll": "^1.15.2",
     "core-js": "^3.6.4",
+    "qs": "^6.9.3",
+    "vant": "^2.5.9",
     "vue": "^2.6.11",
+    "vue-cookies": "^1.7.0",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2"
   },
@@ -17,6 +23,8 @@
     "@vue/cli-plugin-router": "~4.2.0",
     "@vue/cli-plugin-vuex": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
+    "babel-plugin-import": "^1.13.0",
+    "vue-cli-plugin-axios-ts": "^1.0.2",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [

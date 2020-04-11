@@ -4,9 +4,18 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
+    state: {
+      showTabBar:false
+    },
+    mutations: {
+    setShowTabBarFalse(state){
+      state.showTabBar = false
+    },
+
+    setShowTabBarTrue(state){
+      state.showTabBar = true
+    },
+
   },
   actions: {
   },
